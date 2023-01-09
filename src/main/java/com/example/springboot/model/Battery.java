@@ -7,6 +7,6 @@ import java.io.Serializable;
 public class Battery implements Serializable {
 
     private String name;
-    private String postcode;
-    private String wattCapacity;
+    private Long postcode;
+    private Double wattCapacity;
 }
